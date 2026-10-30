@@ -1,0 +1,51 @@
+<section class="blk-pos" id="pos-operatorio">
+  <div class="wrap blk-pos__grid">
+    <div class="blk-pos__cab" data-reveal>
+      <p class="blk-pos__eyebrow">Pós-operatório</p>
+      <h2 class="blk-pos__titulo">A cirurgia acaba no centro cirúrgico. A recuperação continua aqui.</h2>
+      <p class="blk-pos__lead" data-acende>Depois de uma plástica, o corpo precisa de ajuda para drenar o líquido acumulado, desinchar e cicatrizar bem. A Face &amp; Body faz esse acompanhamento no Buritis, sessão a sessão, no ritmo que a sua cirurgia pede.</p>
+    </div>
+    <div class="blk-pos__painel" data-reveal>
+      <div class="blk-pos__motivo"><!--motivo:accent--></div>
+      <p class="blk-pos__painel-txt">Menos inchaço, menos dor e uma cicatriz mais bem cuidada.</p>
+      <p class="blk-pos__painel-rot">É isso que o pós-operatório<br>acompanhado busca</p>
+    </div>
+    <ol class="blk-pos__lista">
+      <li data-reveal style="--d:0ms">
+        <span class="blk-pos__ico"><!--icone:mao--></span>
+        <div><h3>Drenagem linfática pós-operatória</h3><p>Manobras manuais que ajudam o corpo a eliminar o edema da cirurgia e deixam a recuperação mais confortável.</p></div>
+      </li>
+      <li data-reveal style="--d:100ms">
+        <span class="blk-pos__ico"><!--icone:pele--></span>
+        <div><h3>Taping</h3><p>Fitas adesivas linfáticas ou de contenção aplicadas nas áreas operadas, para aliviar a dor e reduzir edema, hematomas e o risco de fibrose.</p></div>
+      </li>
+      <li data-reveal style="--d:200ms">
+        <span class="blk-pos__ico"><!--icone:conversa--></span>
+        <div><h3>Junto com a equipe da cirurgia</h3><p>O acompanhamento segue as orientações de quem operou. Na cirurgia de mama, por exemplo, o cuidado é pensado em conjunto.</p></div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<style>
+.blk-pos{padding-block:var(--sp-section);background:var(--bg-2)}
+.blk-pos__grid{display:grid;gap:var(--sp-5)}
+.blk-pos__eyebrow{margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-pos__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-pos__lead{margin:var(--sp-3) 0 0;font-size:1.1rem;color:var(--ink-soft)}
+.blk-pos__painel{position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;gap:var(--sp-2);padding:var(--sp-5);border-radius:var(--r-lg);background:var(--brand);color:var(--on-dark);min-height:16rem}
+.blk-pos__motivo{position:absolute;inset:0;opacity:.35;pointer-events:none}
+.blk-pos__motivo svg{width:100%;height:100%}
+.blk-pos__painel-txt{position:relative;margin:0;font-family:var(--f-display);font-size:clamp(1.6rem,4vw,2.2rem);line-height:1.15;text-wrap:balance}
+.blk-pos__painel-rot{position:relative;margin:0;font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;line-height:1.6;opacity:.8}
+.blk-pos__lista{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-3)}
+.blk-pos__lista li{display:flex;gap:var(--sp-3);align-items:flex-start;padding:var(--sp-4);background:var(--bg);border:1px solid var(--line);border-radius:var(--r)}
+.blk-pos__ico{flex:none;display:inline-flex;align-items:center;justify-content:center;width:3rem;height:3rem;border-radius:50%;color:var(--brand);border:1px solid color-mix(in srgb,var(--pulse) 70%,transparent)}
+.blk-pos__ico svg{width:1.5rem;height:1.5rem}
+.blk-pos__lista h3{margin:0;font-family:var(--f-display);font-weight:500;font-size:clamp(1.3rem,3vw,1.6rem);line-height:1.1;color:var(--ink)}
+.blk-pos__lista p{margin:.4rem 0 0;line-height:1.55;color:var(--ink-soft)}
+@media (min-width:56rem){
+  .blk-pos__grid{grid-template-columns:1.15fr 1fr;gap:3rem 4rem;align-items:stretch}
+  .blk-pos__lista{grid-column:1 / -1;grid-template-columns:repeat(3,1fr)}
+}
+</style>

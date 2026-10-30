@@ -1,0 +1,272 @@
+{
+  "slug": "face-body-estetica",
+  "negocio": {
+    "nome": "Face & Body Estética Avançada",
+    "logo": "brand/logo.png",
+    "whatsapp": "5531971112220",
+    "unidades": [
+      {
+        "bairro": "Buritis · Belo Horizonte",
+        "endereco": "Av. Professor Mário Werneck, 2220, loja 11 – Buritis, Belo Horizonte – MG, 30575-180",
+        "telefone": "(31) 97111-2220"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#8A5631",
+    "brand2": "#6E3B2A",
+    "ink": "#2B1C14",
+    "bg": "#FBF6EE",
+    "pulse": "#C49A70",
+    "radius": "14px",
+    "registro": "editorial",
+    "fontDisplay": "EB Garamond",
+    "fontBody": "Lato",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Pós-operatório",
+            "href": "#pos-operatorio"
+          },
+          {
+            "texto": "Como funciona",
+            "href": "#como-funciona"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "split-motivo",
+      "data": {
+        "eyebrow": "Estética no Buritis",
+        "h1": "Rosto, corpo e pós-operatório.",
+        "lead": "Toxina, preenchimento, bioestimulador, terapia capilar, contorno corporal e drenagem pós-cirúrgica, com mais de dez anos de atendimento em BH.",
+        "cta": "Agendar avaliação",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "cardTitulo": "Agende pelo WhatsApp",
+        "arte": "grao"
+      }
+    },
+    {
+      "id": "fita",
+      "data": {
+        "itens": [
+          "Toxina botulínica",
+          "Preenchimento",
+          "Bioestimulador de colágeno",
+          "Limpeza de pele",
+          "Micropigmentação de sobrancelhas",
+          "Tricologia",
+          "Gordura localizada",
+          "Drenagem pós-operatória",
+          "Taping"
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "faixa",
+      "data": {
+        "titulo": "A clínica em números",
+        "itens": [
+          {
+            "valor": "5,0",
+            "rotulo": "de nota no Google"
+          },
+          {
+            "valor": "181",
+            "rotulo": "avaliações de pacientes no Google",
+            "contar": 181
+          },
+          {
+            "valor": "+10",
+            "rotulo": "anos de atendimento personalizado"
+          },
+          {
+            "valor": "3",
+            "rotulo": "frentes de cuidado: rosto, corpo e cabelo",
+            "contar": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "A casa",
+        "citacao": "Seu espaço de beleza no coração do Buritis.",
+        "autor": "Como a Face & Body se apresenta",
+        "texto": [
+          "A clínica fica na Mário Werneck, numa loja de rua com recepção própria: parede de mármore, poltronas baixas e atendimento com hora marcada.",
+          "Ali se trata o rosto, o corpo e o couro cabeludo, e também se acompanha quem acabou de passar por uma cirurgia plástica. Cada protocolo é definido depois da avaliação, sem promessa de resultado igual para todo mundo."
+        ],
+        "imagem": "midia/recepcao.jpg",
+        "imagemAlt": "Recepção da Clínica Face & Body, com parede de mármore e poltronas marrons"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "O que se faz na Face & Body",
+        "lead": "Rosto, corpo e cabelo. A combinação certa para você sai da avaliação.",
+        "itens": [
+          {
+            "nome": "Toxina botulínica",
+            "descricao": "Suaviza as linhas de expressão da testa, entre as sobrancelhas e ao redor dos olhos. O efeito diminui com os meses, e o retorno é parte do tratamento.",
+            "icone": "seringa"
+          },
+          {
+            "nome": "Preenchimento",
+            "descricao": "Devolve volume e contorno onde o rosto perdeu sustentação, com quantidade e região definidas na avaliação.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Bioestimulador de colágeno",
+            "descricao": "Estimula o próprio corpo a produzir colágeno. O resultado aparece aos poucos, por isso o cuidado começa meses antes da data que você tem em mente.",
+            "icone": "molecula"
+          },
+          {
+            "nome": "Limpeza de pele e facial",
+            "descricao": "Limpeza profunda e protocolos faciais para a qualidade da pele no dia a dia.",
+            "icone": "pele"
+          },
+          {
+            "nome": "Micropigmentação de sobrancelhas",
+            "descricao": "Preenche falhas e redesenha o formato, planejada a partir do formato do rosto para um resultado natural.",
+            "icone": "olho"
+          },
+          {
+            "nome": "Tricologia",
+            "descricao": "Avaliação e tratamento do couro cabeludo e dos fios, para queda e enfraquecimento.",
+            "icone": "folha"
+          },
+          {
+            "nome": "Gordura localizada e contorno",
+            "descricao": "Tecnologia e técnica para a gordura que resiste à dieta e ao treino, sem cirurgia. O foco é a medida e o contorno, não a balança.",
+            "icone": "mulher"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/pos-operatorio.html"
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Como funciona",
+        "lead": "Do primeiro WhatsApp ao retorno.",
+        "itens": [
+          {
+            "titulo": "Chame no WhatsApp",
+            "texto": "Conte o que você quer tratar, no rosto, no corpo ou no pós-operatório. A recepção responde com os horários.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "Avaliação",
+            "texto": "Uma conversa para entender a sua pele, o seu histórico e o que você espera do tratamento.",
+            "icone": "rosto"
+          },
+          {
+            "titulo": "Plano combinado",
+            "texto": "Procedimento, número de sessões e valores explicados antes de começar.",
+            "icone": "check"
+          },
+          {
+            "titulo": "Sessões e retorno",
+            "texto": "Cada procedimento tem o seu intervalo. O retorno é combinado já na primeira visita.",
+            "icone": "agenda"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "acordeao",
+      "data": {
+        "titulo": "Perguntas antes de agendar",
+        "itens": [
+          {
+            "p": "Preciso passar por avaliação antes?",
+            "r": "Sim. A avaliação define o que faz sentido para o seu caso, a quantidade de produto e o número de sessões."
+          },
+          {
+            "p": "Quanto tempo dura a toxina botulínica?",
+            "r": "O efeito diminui gradualmente ao longo dos meses e varia de pessoa para pessoa. O intervalo até a próxima aplicação é combinado com você."
+          },
+          {
+            "p": "Quando começar o pós-operatório?",
+            "r": "Assim que o seu cirurgião liberar. Vale agendar a primeira sessão antes da cirurgia, para não ficar sem horário na semana em que você mais precisa."
+          },
+          {
+            "p": "O resultado é garantido?",
+            "r": "Não. Cada organismo responde de um jeito, e a clínica explica na avaliação o que é razoável esperar."
+          },
+          {
+            "p": "Onde fica?",
+            "r": "Na Av. Professor Mário Werneck, 2220, loja 11, no Buritis, em Belo Horizonte."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica",
+        "imagem": "midia/recepcao-placa.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Conte o que você quer cuidar",
+        "lead": "Chame pelo WhatsApp e agende a sua avaliação no Buritis.",
+        "cta": "Quero agendar"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Pós-operatório",
+            "href": "#pos-operatorio"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ],
+        "aviso": "Face & Body Estética Avançada · Buritis, Belo Horizonte, MG. Os resultados variam de pessoa para pessoa."
+      }
+    }
+  ]
+}
